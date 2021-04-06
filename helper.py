@@ -1,6 +1,6 @@
-def  fetchInputFile():
+def  fetchInputFile(file):
     #Opens the input file
-    f = open("input.txt", "r")
+    f = open(file, "r")
 
     #Reads the first line to learn the number of registers
     numRegisters = int(f.readline())
