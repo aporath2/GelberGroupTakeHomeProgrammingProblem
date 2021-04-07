@@ -15,4 +15,8 @@ assert(simulation("TestInputs/example4.txt") == 9)
 # Illustrates the requirement that customers of type A choose before customers of type B
 assert(simulation("TestInputs/example5.txt") == 11)
 
+# Illustrates the case when there are no customers in the store
+assert(simulation("TestInputs/example6.txt") == 0)
+
+# If not test cases failed
 print("Passed all test cases")
