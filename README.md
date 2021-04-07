@@ -29,5 +29,6 @@ type B's.
 
 Lastly, the time is printed out in console in the form "Finished at: t=*time* minutes", where time is the resulting ending time.
 
-To run your code, type "sim.py" followed by the name of the input file
+To run your code, type "sim.py" followed by the name of the input file.
+
 To test your code using the example test cases, simply type "test.py" in the command line.
